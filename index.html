@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ADESI – Rwanda | Home</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="index.html">
+      <img src="assets/logo-mark.png" alt="ADESI logo">
+      <div class="brand__text"><strong>ADESI</strong><small>Rwanda</small></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="projects.html">Projects</a>
+      <a href="donate.html">Donate</a>
+      <a href="contact.html" class="btn btn--sm">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__panel">
+    <div class="drawer__top"><strong>Menu</strong><button class="icon-btn" id="closeDrawer" aria-label="Close menu">✕</button></div>
+    <a class="drawer__link" href="index.html">Home</a>
+    <a class="drawer__link" href="about.html">About</a>
+    <a class="drawer__link" href="programs.html">Programs</a>
+    <a class="drawer__link" href="projects.html">Projects</a>
+    <a class="drawer__link" href="donate.html">Donate</a>
+    <a class="drawer__link" href="contact.html">Contact</a>
+  </div>
+</div>
+
+<main>
+  <section class="hero">
+    <img class="hero__img" src="assets/hero.jpg" alt="ADESI field work">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="container">
+        <p class="chip">African Digital Education & Sustainability Initiative</p>
+        <h1>Empowering Rwanda through <span class="accent">Digital Skills</span> & <span class="accent2">Sustainable Development</span></h1>
+        <p class="muted" style="max-width:70ch">
+          ADESI operates at the intersection of education, technology, sustainability, and community development, with a strong focus on youth,
+          women, educators, and underserved communities.
+        </p>
+        <div class="hero__actions">
+          <a class="btn" href="programs.html">Explore Programs</a>
+          <a class="btn btn--ghost" href="donate.html">Support Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--3">
+        <div class="card">
+          <h3>Mission</h3>
+          <p class="muted">To empower communities in Rwanda through inclusive education, digital skills development, research-driven innovation, and sustainable development initiatives.</p>
+        </div>
+        <div class="card">
+          <h3>Vision</h3>
+          <p class="muted">A Rwanda where youth and women have equitable access to quality education, digital opportunities, and sustainable solutions that enable inclusive growth and resilience.</p>
+        </div>
+        <div class="card">
+          <h3>Strategic Plan</h3>
+          <p class="muted">2025–2028: Digital Education • Empowerment • Research & Innovation • Climate Action • Partnerships</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Featured Areas</h2>
+        <p class="muted">A quick view of our work.</p>
+      </div>
+      <div class="grid grid--3 mt">
+        <div class="card"><h3>Digital Education</h3><p class="muted">Digital literacy, coding, data skills and teacher ICT capacity.</p><a class="btn btn--sm" href="programs.html">See Programs</a></div>
+        <div class="card"><h3>Renewable Energy</h3><p class="muted">Solar solutions for schools and health centers with local maintenance training.</p><a class="btn btn--sm" href="programs.html">Learn More</a></div>
+        <div class="card"><h3>Projects & Gallery</h3><p class="muted">Browse photos from trainings, community work, and sustainability action.</p><a class="btn btn--sm" href="projects.html">View Gallery</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year"></span> ADESI – Rwanda. All rights reserved.</p>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
